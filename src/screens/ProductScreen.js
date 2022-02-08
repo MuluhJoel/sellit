@@ -7,21 +7,6 @@ import { useNavigation } from "@react-navigation/native";
 import { FontAwesome } from "@expo/vector-icons";
 import * as Updates from "expo-updates";
 const ProductScreen = ({ navigation }) => {
-  useEffect(() => {
-    updateApp = async () => {
-      try {
-        const available = await Updates.checkForUpdateAsync();
-        if (available) {
-          alert("Updates are available for your app.");
-          await Updates.reloadAsync();
-        }
-      } catch (error) {
-        alert(error.message);
-      }
-    };
-    updateApp();
-  }, []);
-
   return (
     <View style={styles.container}>
       <Header backgroundColor="white" />

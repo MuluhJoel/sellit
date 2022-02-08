@@ -7,9 +7,11 @@ const AboutScreen = () => {
     <View style={styles.container}>
       <Header />
       <View style={{ alignItems: "center", justifyContent: "center", flex: 1 }}>
-        <Text>Created by Muluh Joel</Text>
+        <Text>
+          Created by <Text style={{ fontWeight: "bold" }}>Muluh Joel</Text>
+        </Text>
         <Text>2022</Text>
-        <Text>Presently under construction</Text>
+        <Text>The App is presently under construction</Text>
       </View>
     </View>
   );
