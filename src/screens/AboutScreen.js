@@ -11,7 +11,7 @@ const AboutScreen = () => {
           Created by <Text style={{ fontWeight: "bold" }}>Muluh Joel</Text>
         </Text>
         <Text>2022</Text>
-        <Text>The App is presently under construction</Text>
+        <Text>This App is presently under construction</Text>
       </View>
     </View>
   );
